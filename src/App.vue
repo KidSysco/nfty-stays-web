@@ -1,36 +1,20 @@
 <template>
-  <v-app>
-    <v-app-bar app color="primary" dark>
-      <div class="d-flex align-center">
+  <v-app class="styles-bg-main">
+    <v-app-bar app color="black" dark>
+      <div class="d-flex align-center pink--text text--accent-2 text-h4">
         <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
+          src="/img/icons/android-chrome-maskable-192x192.png"
+          width="31"
+          class="mr-5 ml-2"
+        ></v-img>
+        NFTY STAYS
       </div>
 
       <v-spacer></v-spacer>
 
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
+      <img src="/img/discord.png" class="mx-4" />
+      <img src="/img/twitter.png" class="mx-4" />
+      <img src="/img/instagram.png" class="mx-4" />
     </v-app-bar>
 
     <v-main>
