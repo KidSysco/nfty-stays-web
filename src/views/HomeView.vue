@@ -13,7 +13,7 @@
         WHO IS NFTY-STAYS FOR?
       </v-col>
     </v-row>
-    <v-row>
+    <v-row class="mb-16">
       <v-col cols="12" sm="6" xl="3">
         <v-card class="mx-auto rounded-xl" color="amber darken-2 elevation-7">
           <v-img src="/img/vr-2.jpg" height="200" class=""></v-img>
@@ -128,63 +128,66 @@
         NFTY STAYS MISSION
       </v-col>
     </v-row>
-    <v-row
-      class="d-flex flex-wrap justify-center align-center indigo darken-3 pa-12 rounded-xl"
-    >
-      <v-col cols="12" sm="6" md="4" lg="2" xl="2">
-        <v-card color="lime lighten-2" class="black--text rounded-xl" dark>
-          <v-card-title class="text-h5"> Immersion </v-card-title>
-          <v-card-subtitle class="black--text"
-            >Immerse guest in web3 and NFT experiences</v-card-subtitle
+    <v-row class="mb-16">
+      <div
+        class="mx-4 d-flex flex-wrap justify-center align-center indigo darken-3 pa-12 rounded-xl"
+      >
+        <v-col cols="12" sm="6" md="4" lg="2" xl="2">
+          <v-card color="lime lighten-2" class="black--text rounded-xl" dark>
+            <v-card-title class="text-h5"> Immersion </v-card-title>
+            <v-card-subtitle class="black--text"
+              >Immerse guest in web3 and NFT experiences</v-card-subtitle
+            >
+          </v-card>
+        </v-col>
+        <v-col cols="12" sm="6" md="4" lg="2" xl="2">
+          <v-card color="pink lighten-4" class="black--text rounded-xl" dark>
+            <v-card-title class="text-h5"> Education </v-card-title>
+            <v-card-subtitle class="black--text"
+              >Onboard new Travelers, Host, and RE Investors to Web3 and
+              NFTs</v-card-subtitle
+            >
+          </v-card>
+        </v-col>
+        <v-col cols="12" sm="6" md="4" lg="3" xl="3">
+          <v-card
+            color="light-blue lighten-2"
+            class="black--text rounded-xl"
+            dark
           >
-        </v-card>
-      </v-col>
-      <v-col cols="12" sm="6" md="4" lg="2" xl="2">
-        <v-card color="pink lighten-4" class="black--text rounded-xl" dark>
-          <v-card-title class="text-h5"> Education </v-card-title>
-          <v-card-subtitle class="black--text"
-            >Onboard new Travelers, Host, and RE Investors to Web3 and
-            NFTs</v-card-subtitle
-          >
-        </v-card>
-      </v-col>
-      <v-col cols="12" sm="6" md="4" lg="3" xl="3">
-        <v-card
-          color="light-blue lighten-2"
-          class="black--text rounded-xl"
-          dark
-        >
-          <v-card-title class="text-h5"> Immersion </v-card-title>
-          <v-card-subtitle class="black--text"
-            >Build a community of Short Term Rental and Real Estate investors
-            via Project STOIC</v-card-subtitle
-          >
-        </v-card>
-      </v-col>
-      <v-col cols="12" sm="6" md="4" lg="2" xl="2">
-        <v-card color="pink lighten-4" class="black--text rounded-xl" dark>
-          <v-card-title class="text-h5"> Yield </v-card-title>
-          <v-card-subtitle class="black--text"
-            >Develop ancillary income streams for independent
-            wealth</v-card-subtitle
-          >
-        </v-card>
-      </v-col>
-      <v-col cols="12" sm="6" md="4" lg="2" xl="2">
-        <v-card color="lime lighten-2" class="black--text rounded-xl" dark>
-          <v-card-title class="text-h5"> Adoption </v-card-title>
-          <v-card-subtitle class="black--text"
-            >Be the early adopters that set industry standards</v-card-subtitle
-          >
-        </v-card>
-      </v-col>
+            <v-card-title class="text-h5"> Immersion </v-card-title>
+            <v-card-subtitle class="black--text"
+              >Build a community of Short Term Rental and Real Estate investors
+              via Project STOIC</v-card-subtitle
+            >
+          </v-card>
+        </v-col>
+        <v-col cols="12" sm="6" md="4" lg="2" xl="2">
+          <v-card color="pink lighten-4" class="black--text rounded-xl" dark>
+            <v-card-title class="text-h5"> Yield </v-card-title>
+            <v-card-subtitle class="black--text"
+              >Develop ancillary income streams for independent
+              wealth</v-card-subtitle
+            >
+          </v-card>
+        </v-col>
+        <v-col cols="12" sm="6" md="4" lg="2" xl="2">
+          <v-card color="lime lighten-2" class="black--text rounded-xl" dark>
+            <v-card-title class="text-h5"> Adoption </v-card-title>
+            <v-card-subtitle class="black--text"
+              >Be the early adopters that set industry
+              standards</v-card-subtitle
+            >
+          </v-card>
+        </v-col>
+      </div>
     </v-row>
     <v-row class="mt-16">
       <v-col class="text-h3 text-center pink--text text--accent-3">
         FIRST PROOF OF CONCEPT
       </v-col>
     </v-row>
-    <v-row>
+    <v-row class="mb-16">
       <v-col cols="12" sm="6">
         <v-img src="/img/booshie.jpg" class="rounded-xl"></v-img>
       </v-col>
@@ -223,14 +226,15 @@
         THE NEXT NFTY STAYS
       </v-col>
     </v-row>
-    <v-row>
+    <v-row class="mb-16">
       <v-col cols="12" sm="6">
-        <v-img src="/img/fl-basement.png"></v-img>
+        <v-img src="/img/fl-basement.png" class="rounded-xl"></v-img>
       </v-col>
       <v-col cols="12" sm="6">
-        <v-img src="/img/1-bed-1-bath.png"></v-img>
+        <v-img src="/img/1-bed-1-bath.png" class="rounded-xl"></v-img>
       </v-col>
     </v-row>
+    <!--
     <v-row class="mt-12">
       <v-col class="text-h3 text-center orange--text text--lighten-1">
         JUST SCRATCHING THE SURFACE
@@ -253,12 +257,13 @@
           </div> </v-card
       ></v-col>
     </v-row>
-    <v-row class="mt-12">
+    -->
+    <v-row class="mt-16">
       <v-col class="text-h3 text-center lime--text text--lighten-2">
         FOUNDER
       </v-col>
     </v-row>
-    <v-row>
+    <v-row class="mb-16">
       <v-col cols="12" sm="6" class="d-flex align-center text-h5">
         <div>
           <strong>Joshua DeDecker AKA reconwhispers</strong>
@@ -274,7 +279,7 @@
         </div>
       </v-col>
       <v-col cols="12" sm="6">
-        <v-img src="/img/founder.png"></v-img>
+        <v-img src="/img/founder.png" class="rounded-xl"></v-img>
       </v-col>
     </v-row>
   </v-container>
