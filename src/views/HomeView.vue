@@ -278,7 +278,7 @@
             </ul>
             <div class="text-center my-4">
               <v-btn
-                color="primary"
+                color="#272361"
                 x-large
                 text
                 href="https://rumble.com/vfs2v7-welcome-to-lilys-pad-jax.html"
