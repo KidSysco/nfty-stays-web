@@ -12,11 +12,15 @@
 
       <v-spacer></v-spacer>
 
-      <img src="/img/discord.png" class="mx-4" />
-      <a href="https://twitter.com/NFTyStays" target="_new" class="mt-2 mx-4"
+      <!-- <img src="/img/discord.png" class="mx-4" /> -->
+      <a
+        title="Follow Us on Twitter"
+        href="https://twitter.com/NFTyStays"
+        target="_new"
+        class="mt-2 mx-4"
         ><img src="/img/twitter.png"
       /></a>
-      <img src="/img/instagram.png" class="mx-4" />
+      <!-- <img src="/img/instagram.png" class="mx-4" /> -->
     </v-app-bar>
 
     <v-main>
