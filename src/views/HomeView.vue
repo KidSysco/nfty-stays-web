@@ -268,11 +268,11 @@
         <v-img src="/img/booshie.jpg" class="rounded-xl"></v-img>
       </v-col>
       <v-col cols="12" sm="6"
-        ><v-card color="styles-yellow" class="black--text rounded-xl" dark>
-          <v-card-title class="text-h4 mb-1 styles-pink white--text">
+        ><v-card color="" class="black--text rounded-xl" dark>
+          <v-card-title class="text-h4 styles-pink white--text elevation-4">
             Booshie's Crypto Crib
           </v-card-title>
-          <v-card-subtitle class="text-h6 black--text">
+          <v-card-subtitle class="text-h6 black--text styles-yellow pt-1 mt-0">
             <ul class="mt-6">
               <li>3 bedroom, 1 bathroom Stay</li>
               <li>Performing Short Term Rental</li>
