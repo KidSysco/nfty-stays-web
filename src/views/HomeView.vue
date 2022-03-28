@@ -1,6 +1,11 @@
 <template>
   <v-container>
     <v-row>
+      <v-col>
+        <v-img src="/img/NFTY-STAYS-retro.jpeg" class="rounded-xl"></v-img>
+      </v-col>
+    </v-row>
+    <v-row>
       <v-col cols="12" sm="6" class="d-flex align-center">
         <v-img src="/img/nfty-stays-logo.png" class="mr-8"></v-img>
       </v-col>
@@ -8,6 +13,7 @@
         <v-img src="/img/hero-01.png"></v-img>
       </v-col>
     </v-row>
+
     <v-row class="mt-12">
       <v-col class="text-h3 text-center styles-orange-text">
         WHAT IS NFTY STAYS?
