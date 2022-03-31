@@ -309,30 +309,6 @@
         <v-img src="/img/1-bed-1-bath.png" class="rounded-xl"></v-img>
       </v-col>
     </v-row>
-    <!--
-    <v-row class="mt-12">
-      <v-col class="text-h3 text-center orange--text text--lighten-1">
-        JUST SCRATCHING THE SURFACE
-      </v-col>
-    </v-row>
-    <v-row>
-      <v-col
-        ><v-card color="pink lighten-4" class="black--text rounded-xl" dark>
-          <div class="d-flex flex-no-wrap justify-space-between">
-            <div>
-              <v-card-title class="text-h5"> Education </v-card-title>
-              <v-card-subtitle class="black--text">
-                Web3 ecosystem for STR</v-card-subtitle
-              >
-            </div>
-
-            <v-avatar class="ma-3" size="125" tile>
-              <v-img src="/img/nft-1.jpg"></v-img>
-            </v-avatar>
-          </div> </v-card
-      ></v-col>
-    </v-row>
-    -->
     <v-row class="mt-16">
       <v-col class="text-h3 text-center lime--text text--lighten-2">
         FOUNDER
@@ -343,7 +319,7 @@
         <div>
           <strong>Joshua DeDecker AKA reconwhispers</strong>
           <ul>
-            <li>RealEstateInvestor</li>
+            <li>Real Estate Investor</li>
             <li>Real Estate Operations Specialist</li>
             <li>Founder & CEO of Patriot Property Collective</li>
             <li>
