@@ -197,7 +197,7 @@
             <v-card-title class="text-h5 white--text"> Immerse </v-card-title>
             <v-card-subtitle class="black--text mt-0 pt-4 text-h6 styles-orange"
               >Immerse guests in web3, and NFT experiences inside and outside of
-              NFTY Stays</v-card-subtitle
+              NFTy Stays</v-card-subtitle
             >
           </v-card>
         </v-col>
@@ -209,7 +209,7 @@
           >
             <v-card-title class="text-h5 white--text"> Develop </v-card-title>
             <v-card-subtitle class="black--text mt-0 pt-4 text-h6 styles-blue"
-              >Build a community of Short Term Rental and Real Estate investors
+              >Build a community of short term Rental and Real Estate investors
               via Project STOIC</v-card-subtitle
             >
           </v-card>
