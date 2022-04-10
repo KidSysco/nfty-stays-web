@@ -15,12 +15,12 @@
     </v-row>
 
     <v-row class="mt-12">
-      <v-col class="text-h3 text-center styles-orange-text">
-        WHAT IS NFTY STAYS?
+      <v-col class="text-center styles-orange-text styles-nfty-title">
+        <h1>WHAT IS NFTY STAYS?</h1>
       </v-col>
     </v-row>
     <v-row class="mb-16">
-      <v-col cols="12" sm="6" class="text-h5">
+      <v-col cols="12" sm="6" class="">
         <p>Immersive short term rental experiences incorporating...</p>
         <ul>
           <li>Web 3 & NFT Art, Music, and Project Showcases</li>
@@ -29,7 +29,7 @@
           <li>Metaverse</li>
         </ul>
       </v-col>
-      <v-col cols="12" sm="6" class="text-h5">
+      <v-col cols="12" sm="6" class="">
         <p>Who stays at NFTY STAYS?</p>
         <ul>
           <li>All travelers will want to try our experiences</li>
@@ -39,8 +39,8 @@
       </v-col>
     </v-row>
     <v-row class="mt-16">
-      <v-col class="text-h3 text-center styles-yellow-text">
-        HOW TO ENJOY NFTY STAYS
+      <v-col class="text-center styles-yellow-text styles-nfty-title">
+        <h1>HOW TO ENJOY NFTY STAYS</h1>
       </v-col>
     </v-row>
     <v-row class="mb-16">
@@ -63,7 +63,7 @@
           <v-expand-transition>
             <div v-show="isGuestExpandShowing" class="white">
               <v-divider></v-divider>
-              <v-card-text class="text-h6">
+              <v-card-text class="">
                 All Travelers, Guest, and NFTy Stays Fans will be able to book
                 our first Proof of Concept Stay beginning in May of 2022 in
                 Jacksonville , FL. We will be looking to add 2 more Stays within
@@ -93,7 +93,7 @@
           <v-expand-transition>
             <div v-show="isHostExpandShowing" class="white">
               <v-divider></v-divider>
-              <v-card-text class="text-h6">
+              <v-card-text class="">
                 Once our Proof of Concept Stays are successful, we will begin
                 our next phase to scale. We will be offering a tiered franchise
                 package to approved rentals and host. We will also be launching
@@ -123,7 +123,7 @@
           <v-expand-transition>
             <div v-show="isInvestorExpandShowing" class="white">
               <v-divider></v-divider>
-              <v-card-text class="text-h6">
+              <v-card-text class="">
                 We will be developing and deploying new monetization avenues
                 never before seen or tried in the short term rental or NFT
                 space. We will also be bringing other future real estate
@@ -154,7 +154,7 @@
           <v-expand-transition>
             <div v-show="isRealEstateExpandShowing" class="white">
               <v-divider></v-divider>
-              <v-card-text class="text-h6"
+              <v-card-text class=""
                 >Inquire how to bring your work or project into our network.
                 Come learn about the the real world utility we could provide
                 through showcases and exposure in our stays.
@@ -165,8 +165,8 @@
       </v-col>
     </v-row>
     <v-row class="mt-16">
-      <v-col class="text-h3 text-center styles-blue-text">
-        NFTY STAYS MISSION
+      <v-col class="text-center styles-blue-text styles-nfty-title">
+        <h1>NFTY STAYS MISSION</h1>
       </v-col>
     </v-row>
     <v-row class="mb-16">
@@ -179,10 +179,10 @@
             class="black--text rounded-xl elevation-4"
             dark
           >
-            <v-card-title class="text-h5 styles-purple white--text">
+            <v-card-title class="styles-purple white--text">
               Onboard
             </v-card-title>
-            <v-card-subtitle class="styles-yellow black--text pt-4 mt-0 text-h6"
+            <v-card-subtitle class="styles-yellow black--text pt-4 mt-0"
               >Onboard Travelers, Host, and RE Investors to something new in Web
               3</v-card-subtitle
             >
@@ -194,8 +194,8 @@
             class="black--text rounded-xl elevation-4"
             dark
           >
-            <v-card-title class="text-h5 white--text"> Immerse </v-card-title>
-            <v-card-subtitle class="black--text mt-0 pt-4 text-h6 styles-orange"
+            <v-card-title class="white--text"> Immerse </v-card-title>
+            <v-card-subtitle class="black--text mt-0 pt-4 styles-orange"
               >Immerse guests in web3, and NFT experiences inside and outside of
               NFTy Stays</v-card-subtitle
             >
@@ -207,8 +207,8 @@
             class="black--text rounded-xl elevation-4"
             dark
           >
-            <v-card-title class="text-h5 white--text"> Develop </v-card-title>
-            <v-card-subtitle class="black--text mt-0 pt-4 text-h6 styles-blue"
+            <v-card-title class="white--text"> Develop </v-card-title>
+            <v-card-subtitle class="black--text mt-0 pt-4 styles-blue"
               >Build a community of short term Rental and Real Estate investors
               via Project STOIC</v-card-subtitle
             >
@@ -220,11 +220,8 @@
             class="black--text rounded-xl elevation-4"
             dark
           >
-            <v-card-title class="text-h5 white--text">
-              Collaborate
-            </v-card-title>
-            <v-card-subtitle
-              class="pink lighten-4 black--text mt-0 pt-4 text-h6"
+            <v-card-title class="white--text"> Collaborate </v-card-title>
+            <v-card-subtitle class="pink lighten-4 black--text mt-0 pt-4"
               >Develop ancillary income streams for independent
               wealth</v-card-subtitle
             >
@@ -236,8 +233,8 @@
             class="black--text rounded-xl elevation-4"
             dark
           >
-            <v-card-title class="text-h5 white--text"> Leverage </v-card-title>
-            <v-card-subtitle class="styles-yellow black--text mt-0 pt-4 text-h6"
+            <v-card-title class="white--text"> Leverage </v-card-title>
+            <v-card-subtitle class="styles-yellow black--text mt-0 pt-4"
               >Be the early adopters that set industry
               standards</v-card-subtitle
             >
@@ -249,8 +246,8 @@
             class="black--text rounded-xl elevation-4"
             dark
           >
-            <v-card-title class="text-h5 white--text"> Monetize </v-card-title>
-            <v-card-subtitle class="styles-orange black--text mt-0 pt-4 text-h6"
+            <v-card-title class="white--text"> Monetize </v-card-title>
+            <v-card-subtitle class="styles-orange black--text mt-0 pt-4"
               >Be the early adopters that set industry
               standards</v-card-subtitle
             >
@@ -259,8 +256,8 @@
       </div>
     </v-row>
     <v-row class="mt-16">
-      <v-col class="text-h3 text-center styles-pink-text">
-        FIRST PROOF OF CONCEPT
+      <v-col class="text-center styles-pink-text styles-nfty-title">
+        <h1>FIRST PROOF OF CONCEPT</h1>
       </v-col>
     </v-row>
     <v-row class="mb-16">
@@ -269,10 +266,10 @@
       </v-col>
       <v-col cols="12" sm="6"
         ><v-card color="" class="black--text rounded-xl" dark>
-          <v-card-title class="text-h4 styles-pink white--text elevation-4">
-            Booshie's Crypto Crib
+          <v-card-title class="styles-pink white--text elevation-4">
+            <h3>Booshie's Crypto Crib</h3>
           </v-card-title>
-          <v-card-subtitle class="text-h6 black--text styles-yellow pt-1 mt-0">
+          <v-card-subtitle class="black--text styles-yellow pt-1 mt-0">
             <ul class="mt-6">
               <li>3 bedroom, 1 bathroom Stay</li>
               <li>Performing Short Term Rental</li>
@@ -297,8 +294,10 @@
       >
     </v-row>
     <v-row class="mt-16">
-      <v-col class="text-h3 text-center light-blue--text text--lighten-2">
-        THE NEXT NFTY STAYS
+      <v-col
+        class="text-center light-blue--text text--lighten-2 styles-nfty-title"
+      >
+        <h1>THE NEXT NFTY STAYS</h1>
       </v-col>
     </v-row>
     <v-row class="mb-16">
@@ -310,12 +309,12 @@
       </v-col>
     </v-row>
     <v-row class="mt-16">
-      <v-col class="text-h3 text-center lime--text text--lighten-2">
-        FOUNDER
-      </v-col>
+      <v-col class="text-center lime--text text--lighten-2 styles-nfty-title"
+        ><h1>FOUNDER</h1></v-col
+      >
     </v-row>
     <v-row class="mb-16">
-      <v-col cols="12" sm="6" class="d-flex align-center text-h5">
+      <v-col cols="12" sm="6" class="d-flex align-center">
         <div>
           <strong>Joshua DeDecker AKA reconwhispers</strong>
           <ul>
@@ -333,6 +332,30 @@
         <v-img src="/img/founder.png" class="rounded-xl"></v-img>
       </v-col>
     </v-row>
+    <v-row class="my-16">
+      <v-col>
+        <hr class="white" />
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <a href="/img/NFTY.STAYS.DECK.pdf">NFTy Stays Pitch Deck</a>
+      </v-col>
+    </v-row>
+    <v-row class="mt-16">
+      <v-col class="d-flex justify-center flex-wrap">
+        <v-img
+          src="/img/nfty-stays-logo.png"
+          contain
+          max-height="80"
+          class="my-2"
+        ></v-img>
+      </v-col>
+    </v-row>
+    <div class="text-center grey--text text--darken-1 mb-16">
+      NFTy Stays <br />
+      Copyright 2022
+    </div>
   </v-container>
 </template>
 
