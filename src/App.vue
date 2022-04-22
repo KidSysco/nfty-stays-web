@@ -7,7 +7,7 @@
           width="31"
           class="mr-5 ml-2"
         ></v-img>
-        NFTY STAYS
+        <span class="d-none d-sm-none d-md-flex">NFTY STAYS</span>
       </div>
 
       <v-spacer></v-spacer>
@@ -17,10 +17,16 @@
         title="Follow Us on Twitter"
         href="https://twitter.com/NFTyStays"
         target="_new"
-        class="mt-2 mx-4"
+        class="mt-2 mx-2"
         ><img src="/img/twitter.png"
       /></a>
-      <!-- <img src="/img/instagram.png" class="mx-4" /> -->
+      <a
+        title="Follow Us on Instagram"
+        href="https://www.instagram.com/nftystays/"
+        target="_new"
+        class="mt-2 mx-2"
+        ><img src="/img/instagram.png"
+      /></a>
     </v-app-bar>
 
     <v-main>
