@@ -182,10 +182,10 @@
             <v-card-title class="styles-purple white--text">
               Onboard
             </v-card-title>
-            <v-card-subtitle class="styles-yellow black--text pt-4 mt-0"
-              >Onboard Travelers, Host, and RE Investors to something new in Web
-              3</v-card-subtitle
-            >
+            <v-card-subtitle class="styles-yellow black--text pt-4 mt-0">
+              <!-- eslint-disable-next-line -->
+              Onboard Travelers, Host, and RE Investors to something new in Web 3
+            </v-card-subtitle>
           </v-card>
         </v-col>
         <v-col cols="12" sm="6" md="4" lg="4" xl="2">
@@ -195,10 +195,9 @@
             dark
           >
             <v-card-title class="white--text"> Immerse </v-card-title>
-            <v-card-subtitle class="black--text mt-0 pt-4 styles-orange"
-              >Immerse guests in web3, and NFT experiences inside and outside of
-              NFTy Stays</v-card-subtitle
-            >
+            <v-card-subtitle class="black--text mt-0 pt-4 styles-orange">
+              Immerse guests in unique experiences inside and out of NFTy Stays
+            </v-card-subtitle>
           </v-card>
         </v-col>
         <v-col cols="12" sm="6" md="4" lg="4" xl="2">
@@ -208,10 +207,9 @@
             dark
           >
             <v-card-title class="white--text"> Develop </v-card-title>
-            <v-card-subtitle class="black--text mt-0 pt-4 styles-blue"
-              >Build a community of short term Rental and Real Estate investors
-              via Project STOIC</v-card-subtitle
-            >
+            <v-card-subtitle class="black--text mt-0 pt-4 styles-blue">
+              Develop ancillary income streams to create independent wealth
+            </v-card-subtitle>
           </v-card>
         </v-col>
         <v-col cols="12" sm="6" md="4" lg="4" xl="2">
@@ -221,10 +219,10 @@
             dark
           >
             <v-card-title class="white--text"> Collaborate </v-card-title>
-            <v-card-subtitle class="pink lighten-4 black--text mt-0 pt-4"
-              >Develop ancillary income streams for independent
-              wealth</v-card-subtitle
-            >
+            <v-card-subtitle class="pink lighten-4 black--text mt-0 pt-4">
+              <!-- eslint-disable-next-line -->
+              Collaborate with Web3, NFT, AR, VR, and Metaverse creators for mutual benefit
+            </v-card-subtitle>
           </v-card>
         </v-col>
         <v-col cols="12" sm="6" md="4" lg="4" xl="2">
@@ -234,10 +232,9 @@
             dark
           >
             <v-card-title class="white--text"> Leverage </v-card-title>
-            <v-card-subtitle class="styles-yellow black--text mt-0 pt-4"
-              >Be the early adopters that set industry
-              standards</v-card-subtitle
-            >
+            <v-card-subtitle class="styles-yellow black--text mt-0 pt-4">
+              Leverage new technologies to enhance every aspect of our Stays
+            </v-card-subtitle>
           </v-card>
         </v-col>
         <v-col cols="12" sm="6" md="4" lg="4" xl="2">
@@ -247,10 +244,9 @@
             dark
           >
             <v-card-title class="white--text"> Monetize </v-card-title>
-            <v-card-subtitle class="styles-orange black--text mt-0 pt-4"
-              >Be the early adopters that set industry
-              standards</v-card-subtitle
-            >
+            <v-card-subtitle class="styles-orange black--text mt-0 pt-4">
+              Monetization opportunities in creative and innovative ways
+            </v-card-subtitle>
           </v-card>
         </v-col>
       </div>
@@ -272,12 +268,9 @@
           <v-card-subtitle class="black--text styles-yellow pt-1 mt-0">
             <ul class="mt-6">
               <li>3 bedroom, 1 bathroom Stay</li>
-              <li>Performing Short Term Rental</li>
-              <li>Operated since 2019 as Lily’s Pad JAX</li>
-              <li>Will start rebrand and concept deployment on next vacancy</li>
-              <li>April 22</li>
-              <li>Booshies CRYPTO PAD</li>
-              <li>Be the early adopters that set industry standards</li>
+              <li>Performing Short Term Rental since 2019</li>
+              <li>Rebrand and concept deployment April 22</li>
+              <li>Soft Launch May 22- Booshies CRYPTO PAD</li>
             </ul>
             <div class="text-center my-4">
               <v-btn
