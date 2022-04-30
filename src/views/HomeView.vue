@@ -56,7 +56,7 @@
               @click="isGuestExpandShowing = !isGuestExpandShowing"
               >Explore
               <v-icon class="ml-2">{{
-                isGuestExpandShowing ? "mdi-chevron-up" : "mdi-chevron-down"
+                isGuestExpandShowing ? 'mdi-chevron-up' : 'mdi-chevron-down'
               }}</v-icon>
             </v-btn>
           </v-card-actions>
@@ -86,7 +86,7 @@
               @click="isHostExpandShowing = !isHostExpandShowing"
               >Explore
               <v-icon class="ml-2">{{
-                isHostExpandShowing ? "mdi-chevron-up" : "mdi-chevron-down"
+                isHostExpandShowing ? 'mdi-chevron-up' : 'mdi-chevron-down'
               }}</v-icon>
             </v-btn>
           </v-card-actions>
@@ -116,7 +116,7 @@
               @click="isInvestorExpandShowing = !isInvestorExpandShowing"
               >Explore
               <v-icon class="ml-2">{{
-                isInvestorExpandShowing ? "mdi-chevron-up" : "mdi-chevron-down"
+                isInvestorExpandShowing ? 'mdi-chevron-up' : 'mdi-chevron-down'
               }}</v-icon>
             </v-btn>
           </v-card-actions>
@@ -134,7 +134,7 @@
         </v-card>
       </v-col>
       <v-col cols="12" sm="6" xl="3">
-        <v-card class="mx-auto rounded-xl" color="pink lighten-4">
+        <v-card class="mx-auto rounded-xl styles-greenv">
           <v-img src="/img/vr-1.jpg" height="200"></v-img>
           <v-card-actions
             ><v-card-title>NFT Artist, Projects, & Products</v-card-title>
@@ -146,8 +146,8 @@
               >Explore
               <v-icon class="ml-2">{{
                 isRealEstateExpandShowing
-                  ? "mdi-chevron-up"
-                  : "mdi-chevron-down"
+                  ? 'mdi-chevron-up'
+                  : 'mdi-chevron-down'
               }}</v-icon>
             </v-btn>
           </v-card-actions>
@@ -184,7 +184,8 @@
             </v-card-title>
             <v-card-subtitle class="styles-yellow black--text pt-4 mt-0">
               <!-- eslint-disable-next-line -->
-              Onboard Travelers, Host, and RE Investors to something new in Web 3
+              Onboard Travelers, Host, and RE Investors to something new in Web
+              3
             </v-card-subtitle>
           </v-card>
         </v-col>
@@ -219,9 +220,10 @@
             dark
           >
             <v-card-title class="white--text"> Collaborate </v-card-title>
-            <v-card-subtitle class="pink lighten-4 black--text mt-0 pt-4">
+            <v-card-subtitle class="styles-green black--text mt-0 pt-4">
               <!-- eslint-disable-next-line -->
-              Collaborate with Web3, NFT, AR, VR, and Metaverse creators for mutual benefit
+              Collaborate with Web3, NFT, AR, VR, and Metaverse creators for
+              mutual benefit
             </v-card-subtitle>
           </v-card>
         </v-col>
@@ -251,6 +253,29 @@
         </v-col>
       </div>
     </v-row>
+    <v-row>
+      <v-col cols="12" sm="6" class="text-center">
+        <iframe
+          class="rumble"
+          width="640"
+          height="360"
+          src="https://rumble.com/embed/v107oyt/?pub=4"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </v-col>
+      <v-col cols="12" sm="6" class="text-center">
+        <iframe
+          class="rumble"
+          width="640"
+          height="360"
+          src="https://rumble.com/embed/v106tpj/?pub=4"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </v-col>
+    </v-row>
+    <!--
     <v-row class="mt-16">
       <v-col class="text-center styles-pink-text styles-nfty-title">
         <h1>FIRST PROOF OF CONCEPT</h1>
@@ -324,7 +349,7 @@
       <v-col cols="12" sm="6">
         <v-img src="/img/founder.png" class="rounded-xl"></v-img>
       </v-col>
-    </v-row>
+    </v-row> -->
     <v-row class="my-16">
       <v-col>
         <hr class="white" />
@@ -354,7 +379,7 @@
 
 <script>
 export default {
-  name: "home-view",
+  name: 'home-view',
   data: () => ({
     isHostExpandShowing: false,
     isInvestorExpandShowing: false,
