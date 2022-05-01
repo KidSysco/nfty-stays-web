@@ -19,9 +19,11 @@
         <h1>WHAT IS NFTY STAYS?</h1>
       </v-col>
     </v-row>
-    <v-row class="mb-16">
+    <v-row class="mb-16 orange--text text--lighten-4">
       <v-col cols="12" sm="6" class="">
-        <p>Immersive short term rental experiences incorporating...</p>
+        <h3 class="mb-4">
+          Immersive short term rental experiences incorporating...
+        </h3>
         <ul>
           <li>Web 3 & NFT Art, Music, and Project Showcases</li>
           <li>Virtual Reality</li>
@@ -30,7 +32,7 @@
         </ul>
       </v-col>
       <v-col cols="12" sm="6" class="">
-        <p>Who stays at NFTY STAYS?</p>
+        <h3 class="mb-4">Who stays at NFTY STAYS?</h3>
         <ul>
           <li>All travelers will want to try our experiences</li>
           <li>Technology Enthusiast: Crypto/NFT/Web3 newcomers and vets</li>
@@ -45,7 +47,7 @@
     </v-row>
     <v-row class="mb-16">
       <v-col cols="12" sm="6" xl="3">
-        <v-card class="mx-auto rounded-xl" color="styles-blue">
+        <v-card class="mx-auto rounded-xl" color="styles-yellow">
           <v-img src="/img/vr-3.jpg" height="200"></v-img>
           <v-card-actions
             ><v-card-title>Guests & Travelers</v-card-title>
@@ -105,7 +107,7 @@
         </v-card>
       </v-col>
       <v-col cols="12" sm="6" xl="3">
-        <v-card class="mx-auto rounded-xl" color="styles-orange elevation-7">
+        <v-card class="mx-auto rounded-xl" color="styles-yellow elevation-5">
           <v-img src="/img/vr-2.jpg" height="200" class=""></v-img>
           <v-card-actions
             ><v-card-title>Investors</v-card-title>
@@ -134,7 +136,7 @@
         </v-card>
       </v-col>
       <v-col cols="12" sm="6" xl="3">
-        <v-card class="mx-auto rounded-xl styles-greenv">
+        <v-card class="mx-auto rounded-xl styles-yellow">
           <v-img src="/img/vr-1.jpg" height="200"></v-img>
           <v-card-actions
             ><v-card-title>NFT Artist, Projects, & Products</v-card-title>
@@ -179,10 +181,8 @@
             class="black--text rounded-xl elevation-4"
             dark
           >
-            <v-card-title class="styles-purple white--text">
-              Onboard
-            </v-card-title>
-            <v-card-subtitle class="styles-yellow black--text pt-4 mt-0">
+            <v-card-title class="styles-blue"> Onboard </v-card-title>
+            <v-card-subtitle class="light-blue lighten-4 black--text pt-4 mt-0">
               <!-- eslint-disable-next-line -->
               Onboard Travelers, Host, and RE Investors to something new in Web
               3
@@ -195,8 +195,8 @@
             class="black--text rounded-xl elevation-4"
             dark
           >
-            <v-card-title class="white--text"> Immerse </v-card-title>
-            <v-card-subtitle class="black--text mt-0 pt-4 styles-orange">
+            <v-card-title class="styles-blue"> Immerse </v-card-title>
+            <v-card-subtitle class="light-blue lighten-4 black--text pt-4 mt-0">
               Immerse guests in unique experiences inside and out of NFTy Stays
             </v-card-subtitle>
           </v-card>
@@ -207,8 +207,8 @@
             class="black--text rounded-xl elevation-4"
             dark
           >
-            <v-card-title class="white--text"> Develop </v-card-title>
-            <v-card-subtitle class="black--text mt-0 pt-4 styles-blue">
+            <v-card-title class="styles-blue"> Develop </v-card-title>
+            <v-card-subtitle class="light-blue lighten-4 black--text pt-4 mt-0">
               Develop ancillary income streams to create independent wealth
             </v-card-subtitle>
           </v-card>
@@ -219,8 +219,8 @@
             class="black--text rounded-xl elevation-4"
             dark
           >
-            <v-card-title class="white--text"> Collaborate </v-card-title>
-            <v-card-subtitle class="styles-green black--text mt-0 pt-4">
+            <v-card-title class="styles-blue"> Collaborate </v-card-title>
+            <v-card-subtitle class="light-blue lighten-4 black--text pt-4 mt-0">
               <!-- eslint-disable-next-line -->
               Collaborate with Web3, NFT, AR, VR, and Metaverse creators for
               mutual benefit
@@ -233,8 +233,8 @@
             class="black--text rounded-xl elevation-4"
             dark
           >
-            <v-card-title class="white--text"> Leverage </v-card-title>
-            <v-card-subtitle class="styles-yellow black--text mt-0 pt-4">
+            <v-card-title class="styles-blue"> Leverage </v-card-title>
+            <v-card-subtitle class="light-blue lighten-4 black--text pt-4 mt-0">
               Leverage new technologies to enhance every aspect of our Stays
             </v-card-subtitle>
           </v-card>
@@ -245,119 +245,73 @@
             class="black--text rounded-xl elevation-4"
             dark
           >
-            <v-card-title class="white--text"> Monetize </v-card-title>
-            <v-card-subtitle class="styles-orange black--text mt-0 pt-4">
+            <v-card-title class="styles-blue"> Monetize </v-card-title>
+            <v-card-subtitle class="light-blue lighten-4 black--text pt-4 mt-0">
               Monetization opportunities in creative and innovative ways
             </v-card-subtitle>
           </v-card>
         </v-col>
       </div>
     </v-row>
+    <v-row class="mt-16">
+      <v-col class="text-center styles-pink-text styles-nfty-title">
+        <h1>Project Work</h1>
+      </v-col>
+    </v-row>
     <v-row>
+      <v-col class="pink--text text--lighten-4">
+        <h2 class="mb-4">NFTy Stays Metaverse House Party</h2>
+        <p>
+          Welcome to the vision of the NFTy Stay Metaverse House Party featuring
+          our custom theme song "Stay NFTy" by ProjectLB52 and performed by Dan
+          the lost boy.
+        </p>
+      </v-col>
       <v-col cols="12" sm="6" class="text-center">
         <iframe
-          class="rumble"
-          width="640"
-          height="360"
+          class="styles-rumble rounded-xl"
+          src="https://rumble.com/embed/v106tpj/?pub=4"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </v-col> </v-row
+    ><v-row
+      ><v-col class="pink--text text--lighten-4">
+        <h2 class="mb-4">Time Lapse of "Stay NFTy" by TJSART</h2>
+        <p>
+          This is a time lapse video of "Stay NFTy" by TJSART created for NFTy
+          Stays and presented via NFT by Dig-A Hash played to the instrumental
+          of Count on Nobody by Arye
+        </p>
+      </v-col>
+      <v-col cols="12" sm="6" class="text-center">
+        <iframe
+          class="styles-rumble rounded-xl"
           src="https://rumble.com/embed/v107oyt/?pub=4"
           frameborder="0"
           allowfullscreen
         ></iframe>
       </v-col>
-      <v-col cols="12" sm="6" class="text-center">
-        <iframe
-          class="rumble"
-          width="640"
-          height="360"
-          src="https://rumble.com/embed/v106tpj/?pub=4"
-          frameborder="0"
-          allowfullscreen
-        ></iframe>
-      </v-col>
-    </v-row>
-    <!--
-    <v-row class="mt-16">
-      <v-col class="text-center styles-pink-text styles-nfty-title">
-        <h1>FIRST PROOF OF CONCEPT</h1>
-      </v-col>
-    </v-row>
-    <v-row class="mb-16">
-      <v-col cols="12" sm="6">
-        <v-img src="/img/booshie.jpg" class="rounded-xl"></v-img>
-      </v-col>
-      <v-col cols="12" sm="6"
-        ><v-card color="" class="black--text rounded-xl" dark>
-          <v-card-title class="styles-pink white--text elevation-4">
-            <h3>Booshie's Crypto Crib</h3>
-          </v-card-title>
-          <v-card-subtitle class="black--text styles-yellow pt-1 mt-0">
-            <ul class="mt-6">
-              <li>3 bedroom, 1 bathroom Stay</li>
-              <li>Performing Short Term Rental since 2019</li>
-              <li>Rebrand and concept deployment April 22</li>
-              <li>Soft Launch May 22- Booshies CRYPTO PAD</li>
-            </ul>
-            <div class="text-center my-4">
-              <v-btn
-                color="#272361"
-                x-large
-                text
-                href="https://rumble.com/vfs2v7-welcome-to-lilys-pad-jax.html"
-                target="_new"
-                >Learn More
-              </v-btn>
-            </div>
-          </v-card-subtitle>
-        </v-card></v-col
-      >
     </v-row>
     <v-row class="mt-16">
-      <v-col
-        class="text-center light-blue--text text--lighten-2 styles-nfty-title"
-      >
-        <h1>THE NEXT NFTY STAYS</h1>
-      </v-col>
-    </v-row>
-    <v-row class="mb-16">
-      <v-col cols="12" sm="6">
-        <v-img src="/img/fl-basement.png" class="rounded-xl"></v-img>
-      </v-col>
-      <v-col cols="12" sm="6">
-        <v-img src="/img/1-bed-1-bath.png" class="rounded-xl"></v-img>
-      </v-col>
-    </v-row>
-    <v-row class="mt-16">
-      <v-col class="text-center lime--text text--lighten-2 styles-nfty-title"
-        ><h1>FOUNDER</h1></v-col
-      >
-    </v-row>
-    <v-row class="mb-16">
-      <v-col cols="12" sm="6" class="d-flex align-center">
-        <div>
-          <strong>Joshua DeDecker AKA reconwhispers</strong>
-          <ul>
-            <li>Real Estate Investor</li>
-            <li>Real Estate Operations Specialist</li>
-            <li>Founder & CEO of Patriot Property Collective</li>
-            <li>
-              Founder of
-              <a href="https://www.dig-a-hash.com" target="_new">Dig-A-Hash</a>
-            </li>
-          </ul>
-        </div>
-      </v-col>
-      <v-col cols="12" sm="6">
-        <v-img src="/img/founder.png" class="rounded-xl"></v-img>
-      </v-col>
-    </v-row> -->
-    <v-row class="my-16">
-      <v-col>
-        <hr class="white" />
+      <v-col class="text-center styles-orange-text styles-nfty-title">
+        <h1>Pitch Deck</h1>
       </v-col>
     </v-row>
     <v-row>
       <v-col>
-        <a href="/img/NFTY.STAYS.DECK.pdf">NFTy Stays Pitch Deck</a>
+        <p class="orange--text text--lighten-4">
+          Get a look inside, and view the NFTy Stays Pitch Deck by downloading
+          the PDF file.
+        </p>
+        <v-btn color="styles-orange" href="/img/NFTY.STAYS.DECK.pdf" x-large>
+          <v-icon class="mr-2">mdi-download</v-icon> Download PDF
+        </v-btn>
+      </v-col>
+    </v-row>
+    <v-row class="my-16">
+      <v-col>
+        <hr class="white" />
       </v-col>
     </v-row>
     <v-row class="mt-16">
