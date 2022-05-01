@@ -255,7 +255,136 @@
     </v-row>
     <v-row class="mt-16">
       <v-col class="text-center styles-pink-text styles-nfty-title">
-        <h1>Project Work</h1>
+        <h1>Featured Projects</h1>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <v-card
+          color="styles-purple"
+          class="black--text rounded-xl elevation-4 mb-4"
+          dark
+        >
+          <v-img src="/img/inside-01.jpg" max-height="300"></v-img>
+          <v-card-title class="styles-pink white--text">
+            The "Stay NFTy" Landscape Art NFT
+          </v-card-title>
+          <v-card-text class="purple lighten-4 black--text pt-4 mt-0">
+            <p><strong>On sale at OpenSea Now!</strong></p>
+            <p>
+              Series of 15, 1/1, original, landscape artworks that incorporate
+              physical and digital world ownership, proof of concept short term
+              rentals, and innovative monetization avenues for NFT artist and
+              Projects. Each NFT holder has a unique piece of landscape art,
+              ownership of their NFT IP, 6% revenue on any leased IP income, and
+              represent 1/15 ownership of the physical art display that will be
+              available in one of the 1st proof of concept NFTy Stays.
+            </p>
+            <p class="mb-0">
+              <v-btn
+                x-large
+                color="primary"
+                href="https://opensea.io/collection/stay-nfty-landscape-art"
+              >
+                Buy Now on OpenSea
+              </v-btn>
+            </p>
+          </v-card-text>
+          <v-card-text
+            class="purple lighten-4 black--text pt-4 mt-0 text-center"
+          >
+            <p>
+              Featured Artist: TJSART - Physical Signs by
+              <a
+                href="https://degendisplays.com?sca_ref=1687629.1Iu3AkQTX1"
+                target="_new"
+                >Degen Displays</a
+              >
+              - Presented by
+              <a href="https://www.dig-a-hash.com" target="_new"
+                >Dig-A Hash Holdings</a
+              >
+            </p>
+
+            <v-btn
+              color="secondary"
+              outlined
+              class="mb-2"
+              small
+              @click="isNftExpandShowing = !isNftExpandShowing"
+              >Explore TJSART
+              <v-icon class="ml-2">{{
+                isNftExpandShowing ? 'mdi-chevron-up' : 'mdi-chevron-down'
+              }}</v-icon>
+            </v-btn>
+          </v-card-text>
+          <v-expand-transition>
+            <div
+              v-show="isNftExpandShowing"
+              class="grey darken-3 pink--text text--lighten-4"
+            >
+              <v-row class="mx-2">
+                <v-col
+                  ><h3>TJSART</h3>
+
+                  <v-btn href="https://opensea.io/TJSART" target="_new"
+                    >https://opensea.io/TJSART</v-btn
+                  >
+                </v-col>
+              </v-row>
+              <v-row class="mx-2">
+                <v-col cols="12" md="6">
+                  <v-img
+                    src="/img/Millennialsss-25-S.gif"
+                    class="rounded-xl"
+                  ></v-img
+                ></v-col>
+                <v-col cols="12" md="6"
+                  ><p>
+                    My Name is TJ and I am an artist now living in Los Angeles.
+                    I am originally from the beautiful country of Guatemala . It
+                    is truly a beautiful country but there is also a lot of
+                    poverty and hunger.
+                  </p>
+
+                  <p>
+                    My love for art started when I was kid! I didn't have the
+                    easiest childhood growing up as I was raised by an abusive
+                    alcoholic step father who kicked me out of the house when I
+                    was just 9 years old. I begged for food and water for days
+                    until a sweet lady found me lost and wandering in the
+                    streets and took me in. She made sure I was fed and taken
+                    care of by her friend’s orphanage where I lived for the next
+                    5 years.
+                  </p>
+
+                  <p>
+                    In the summer of 2009, I was adopted by my dad from Los
+                    Angeles and moved to Santa Monica, California where I was
+                    able to pursue my passion in arts and in started drawing and
+                    painting more. I actually won a few awards in high school
+                    for my art! After I graduated from high school, I attended
+                    art college for two years to pursue digital media motion
+                    graphics, graphic design, and fine arts.
+                  </p>
+
+                  <p>
+                    Today, I’m pursuing NFTs full time because I want to be a
+                    part of history and change the world by helping artists and
+                    charities such as the fight against hunger and poverty in
+                    the world in anyway I can. I came from nothing and I’m
+                    blessed to have this new life.
+                  </p>
+                  <p>
+                    It’s time to give back to the world! Thank you for taking
+                    the time to read about my life and getting to know me a
+                    little bit.
+                  </p></v-col
+                >
+              </v-row>
+            </div>
+          </v-expand-transition>
+        </v-card>
       </v-col>
     </v-row>
     <v-row>
@@ -281,8 +410,9 @@
         <p>
           This is a time lapse video of "Stay NFTy" by TJSART created for NFTy
           Stays and presented via NFT by Dig-A Hash played to the instrumental
-          of Count on Nobody by Arye
+          of Count on Nobody by Arye.
         </p>
+        <p></p>
       </v-col>
       <v-col cols="12" sm="6" class="text-center">
         <iframe
@@ -339,6 +469,7 @@ export default {
     isInvestorExpandShowing: false,
     isGuestExpandShowing: false,
     isRealEstateExpandShowing: false,
+    isNftExpandShowing: false,
   }),
   components: {},
 };
