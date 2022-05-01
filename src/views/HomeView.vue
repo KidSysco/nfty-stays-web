@@ -423,6 +423,32 @@
         ></iframe>
       </v-col>
     </v-row>
+    <v-row>
+      <v-col>
+        <v-card
+          color="styles-purple"
+          class="black--text rounded-xl elevation-4"
+          dark
+        >
+          <v-img src="/img/nfty-stays-graffiti.jpg"></v-img>
+
+          <v-card-title class="styles-pink white--text">
+            NFTy Stays Graffiti NFT
+          </v-card-title>
+          <v-card-text class="purple lighten-4 black--text pt-4 mt-0">
+            Custom graffiti NFT banner by dizzy store! <br />
+            <v-btn
+              color="primary"
+              class="mt-2"
+              large
+              href="https://objkt.com/asset/KT1BB4iwhidJFHBVVeJcvLMr9wN7viuEiyvw/18"
+              target="_new"
+              >Explore</v-btn
+            >
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
     <v-row class="mt-16">
       <v-col class="text-center styles-orange-text styles-nfty-title">
         <h1>Pitch Deck</h1>
