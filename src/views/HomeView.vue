@@ -335,10 +335,7 @@
               </v-row>
               <v-row class="mx-2">
                 <v-col cols="12" md="6">
-                  <v-img
-                    src="/img/tjsart.jpg"
-                    class="rounded-xl"
-                  ></v-img
+                  <v-img src="/img/tjsart.jpg" class="rounded-xl"></v-img
                 ></v-col>
                 <v-col cols="12" md="6"
                   ><p>
@@ -448,6 +445,61 @@
             >
           </v-card-text>
         </v-card>
+      </v-col>
+    </v-row>
+     <v-row class="mt-16">
+      <v-col class="text-center styles-yellow-text styles-nfty-title">
+        <h1>Road Map</h1>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <v-timeline dark class="styles-yellow-text" align-top :dense="$vuetify.breakpoint.smAndDown">
+          <v-timeline-item color="styles-blue" >
+            <h3 class="mb-4">Jan-Mar 22</h3>
+            <div>
+              <ul>
+                <li>Research and Branding</li>
+                <li>Socials Deployment</li>
+                <li>Website 1.0</li>
+              </ul>
+            </div>
+          </v-timeline-item>
+          <v-timeline-item color="styles-green">
+            <div class="d-flex justify-md-end">
+              <div>
+                <h3 class="mb-4 text-left text-sm-right">Apr - Jun 22</h3>
+                <ul>
+                  <li>App 1.0</li>
+                  <li>Website 2.0</li>
+                  <li>1st Proof of Concept hard/soft launch</li>
+                  <li>2nd Proof of Concept soft launch</li>
+                </ul>
+              </div>
+            </div>
+          </v-timeline-item>
+          <v-timeline-item color="styles-orange">
+            <h3 class="mb-4">Jul - Sep 22</h3>
+            <div>
+              <ul>
+                <li>2nd Proof of Concept hard launch</li>
+                <li>3rd Proof of Concept soft/hard launch</li>
+              </ul>
+            </div>
+          </v-timeline-item>
+          <v-timeline-item color="styles-pink">
+            <div class="d-flex justify-md-end">
+              <div>
+                <h3 class="mb-4 text-left text-sm-right">Oct - Dec 22</h3>
+                <ul>
+                  <li>App 2.0</li>
+                  <li>Website 3.0</li>
+                  <li>Project S.T.O.I.C</li>
+                </ul>
+              </div>
+            </div>
+          </v-timeline-item>
+        </v-timeline>
       </v-col>
     </v-row>
     <v-row class="mt-16">
