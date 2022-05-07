@@ -459,9 +459,9 @@
             <h3 class="mb-4">Jan-Mar 22</h3>
             <div>
               <ul>
-                <li>Research and Branding</li>
-                <li>Socials Deployment</li>
-                <li>Website 1.0</li>
+                <li>✅ Research and Branding</li>
+                <li>✅ Socials Deployment</li>
+                <li>✅ Website 1.0</li>
               </ul>
             </div>
           </v-timeline-item>
@@ -470,10 +470,10 @@
               <div>
                 <h3 class="mb-4 text-left text-sm-right">Apr - Jun 22</h3>
                 <ul>
-                  <li>App 1.0</li>
-                  <li>Website 2.0</li>
-                  <li>1st Proof of Concept hard/soft launch</li>
-                  <li>2nd Proof of Concept soft launch</li>
+                  <li>🚧 App 1.0</li>
+                  <li>🚧 Website 2.0</li>
+                  <li>🚧 1st Proof of Concept hard/soft launch</li>
+                  <li>🔜 2nd Proof of Concept soft launch</li>
                 </ul>
               </div>
             </div>
@@ -482,8 +482,8 @@
             <h3 class="mb-4">Jul - Sep 22</h3>
             <div>
               <ul>
-                <li>2nd Proof of Concept hard launch</li>
-                <li>3rd Proof of Concept soft/hard launch</li>
+                <li>🔜 2nd Proof of Concept hard launch</li>
+                <li>🔜 3rd Proof of Concept soft/hard launch</li>
               </ul>
             </div>
           </v-timeline-item>
@@ -492,9 +492,9 @@
               <div>
                 <h3 class="mb-4 text-left text-sm-right">Oct - Dec 22</h3>
                 <ul>
-                  <li>App 2.0</li>
-                  <li>Website 3.0</li>
-                  <li>Project S.T.O.I.C</li>
+                  <li>🔜 App 2.0</li>
+                  <li>🔜 Website 3.0</li>
+                  <li>🚧 Project S.T.O.I.C</li>
                 </ul>
               </div>
             </div>
