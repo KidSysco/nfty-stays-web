@@ -283,6 +283,7 @@
             <p class="mb-0">
               <v-btn
                 x-large
+                target="_new"
                 color="primary"
                 href="https://opensea.io/collection/stay-nfty-landscape-art"
               >
@@ -335,7 +336,7 @@
               <v-row class="mx-2">
                 <v-col cols="12" md="6">
                   <v-img
-                    src="/img/Millennialsss-25-S.gif"
+                    src="/img/tjsart.jpg"
                     class="rounded-xl"
                   ></v-img
                 ></v-col>
